@@ -23,6 +23,7 @@
         @click="isDrawerOpen = !isDrawerOpen"
       ></v-app-bar-nav-icon>
       <v-app-bar-title>Meu APP</v-app-bar-title>
+
       <template #append>
         <v-btn icon class="mr-2">
           <v-badge dot color="info">
@@ -58,7 +59,47 @@
     </v-app-bar>
     <v-main>
       <v-container>
-        <h1>Dashboard</h1>
+        <h1 class="mb-6">Dashboard</h1>
+
+        <v-card flat class="border mb-4">
+          <v-card-title>Ultimos usuarios</v-card-title>
+          <v-table>
+            <thead>
+              <tr>
+                <th class="text-left">Name</th>
+                <th class="text-left">Email</th>
+                <th class="text-left">Cargo</th>
+                <th>Ações</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Fulano de Tal</td>
+                <td>fulanodetal@gamil.com</td>
+                <td>Progamador Pleno</td>
+                <td>
+                  <v-btn variant="tonal" color="primary">Editar</v-btn>
+                </td>
+              </tr>
+              <tr>
+                <td>Fulano</td>
+                <td>fulano@gamil.com</td>
+                <td>Progamador Senior</td>
+                <td>
+                  <v-btn variant="tonal" color="primary">Editar</v-btn>
+                </td>
+              </tr>
+              <tr>
+                <td>Zé Ninguem</td>
+                <td>zeninguem@gamil.com</td>
+                <td>Progamador Junior</td>
+                <td>
+                  <v-btn variant="tonal" color="primary">Editar</v-btn>
+                </td>
+              </tr>
+            </tbody>
+          </v-table>
+        </v-card>
 
         <v-row>
           <v-col class="text-center" cols="12" sm="6" md="4" lg="3">
