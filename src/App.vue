@@ -5,10 +5,9 @@
     </v-app-bar>
     <v-main>
       <v-container>
-        <div class="d-flex justify-space-around">
+        <div class="d-flex ma-10 justify-space-around">
           <div
-            style="width: 100px; height: 100px"
-            class="border rounded-lg elevation-3"
+            class="w-25 pa-4 border rounded-lg elevation-3"
           >
             teste
           </div>
