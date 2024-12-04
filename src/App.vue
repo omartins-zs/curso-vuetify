@@ -6,27 +6,67 @@
     <v-main>
       <v-container>
         <h1>Dashboard</h1>
+
         <v-row>
-          <v-col cols="1">1</v-col>
-        </v-row>
-        <v-row>
-          <v-col cols="1">1</v-col>
-          <v-col cols="10">10</v-col>
-          <v-col cols="1">1</v-col>
-        </v-row>
-        <v-row>
-          <v-col class="text-center" cols="6">1</v-col>
-          <v-col class="text-center" cols="6">1</v-col>
-        </v-row>
-        <v-row>
-          <v-col class="text-center" cols="4">1</v-col>
-          <v-col class="text-center" cols="4">1</v-col>
-          <v-col class="text-center" cols="4">1</v-col>
-        </v-row>
-        <v-row>
-          <v-col class="text-center" cols="12" md="4" lg="3">1</v-col>
-          <v-col class="text-center" cols="12" md="4" lg="3">1</v-col>
-          <v-col class="text-center" cols="12" md="4" lg="3">1</v-col>
+          <v-col class="text-center" cols="12" md="4" lg="3">
+            <v-card class="mx-auto" max-width="400">
+              <v-img
+                class="align-end text-white"
+                src="https://images.pexels.com/photos/13435510/pexels-photo-13435510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                >
+
+                <v-card-title> Top 10 praias na Bahia </v-card-title>
+                </v-img>
+
+              <v-card-text>
+                <div>Rio vermelho</div>
+
+                <div>Lorem ipsum dolor sit amet.</div>
+              </v-card-text>
+
+              <v-card-actions>
+                <v-btn color="orange" text="Ver mais"></v-btn>
+              </v-card-actions>
+            </v-card>
+            <v-card class="mx-auto" max-width="400">
+              <v-img
+                class="align-end text-white"
+                src="https://images.pexels.com/photos/13435510/pexels-photo-13435510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                >
+
+                <v-card-title> Top 10 praias na Bahia </v-card-title>
+                </v-img>
+
+              <v-card-text>
+                <div>Rio vermelho</div>
+
+                <div>Lorem ipsum dolor sit amet.</div>
+              </v-card-text>
+
+              <v-card-actions>
+                <v-btn color="orange" text="Ver mais"></v-btn>
+              </v-card-actions>
+            </v-card>
+            <v-card class="mx-auto" max-width="400">
+              <v-img
+                class="align-end text-white"
+                src="https://images.pexels.com/photos/13435510/pexels-photo-13435510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                >
+
+                <v-card-title> Top 10 praias na Bahia </v-card-title>
+                </v-img>
+
+              <v-card-text>
+                <div>Rio vermelho</div>
+
+                <div>Lorem ipsum dolor sit amet.</div>
+              </v-card-text>
+
+              <v-card-actions>
+                <v-btn color="orange" text="Ver mais"></v-btn>
+              </v-card-actions>
+            </v-card>
+          </v-col>
         </v-row>
 
         <!-- <v-btn class="ma-4" color="purple-darken-3">Submit</v-btn>
