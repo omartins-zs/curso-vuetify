@@ -5,7 +5,14 @@
     </v-app-bar>
     <v-main>
       <v-container>
-<h1 class="text-h5 text-lg-h3">Dashboard</h1>
+        <v-btn class="ma-4" color="purple-darken-3">Submit</v-btn>
+        <v-btn class="ma-4" color="#0f0f00">Reset</v-btn>
+
+        <h1
+          class="text-blue-lighten-2 bg-blue-darken-4 text-h5 text-lg-h3 px-4 py-2"
+        >
+          Dashboard
+        </h1>
 
         <h1>Meu App</h1>
         <h1 class="d-none">Meu App Não Mostrado</h1>
@@ -19,12 +26,11 @@
         <div class="text-caption">Caption</div>
 
         <div class="d-flex flex-column flex-md-row ma-10 justify-space-around">
-          <div class="w-100 pa-4 border rounded-lg elevation-3">teste</div>
+          <div class="w-100 pa-4 border rounded-lg elevation-3 bg-grey-lighten-2">teste</div>
           <div class="w-100 pa-4 border rounded-lg elevation-3">teste</div>
           <div class="w-100 pa-4 border rounded-lg elevation-3">teste</div>
           <div class="w-100 pa-4 border rounded-lg elevation-3">teste</div>
         </div>
-
       </v-container>
 
       <router-view />
