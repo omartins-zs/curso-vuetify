@@ -63,24 +63,27 @@
 
         <v-card flat class="border mb-4">
           <div class="d-flex justify-space-between">
-            <v-card-title>Ultimos usuarios</v-card-title>
+            <v-card-title>Últimos usuários</v-card-title>
 
             <v-card-title>
-              <v-dialog>
-                <template #activator="{ props }">
-                  <v-btn v-bind="props" variant="tonal" size="small">
-                    Adicionar Usuario
-                  </v-btn>
-                </template>
+              <v-btn @click="isDialogOpen = true" variant="tonal" size="small"
+                >Adicionar usuário</v-btn
+              >
+
+              <v-dialog v-model="isDialogOpen" width="600px">
+                <v-card>
+                  <v-card-text> sdsd </v-card-text>
+                </v-card>
               </v-dialog>
             </v-card-title>
           </div>
+
           <v-table>
             <thead>
               <tr>
-                <th class="text-left">Name</th>
-                <th class="text-left">Email</th>
-                <th class="text-left">Cargo</th>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Cargo</th>
                 <th>Ações</th>
               </tr>
             </thead>
@@ -94,8 +97,8 @@
                 </td>
               </tr>
               <tr>
-                <td>Fulano</td>
-                <td>fulano@gamil.com</td>
+                <td>Cicrano</td>
+                <td>cicrano@gmail.com</td>
                 <td>Progamador Senior</td>
                 <td>
                   <v-btn variant="tonal" color="primary">Editar</v-btn>
@@ -243,4 +246,5 @@
 import { ref } from "vue";
 
 const isDrawerOpen = ref(false);
+const isDialogOpen = ref(false);
 </script>
