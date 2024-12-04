@@ -5,7 +5,31 @@
     </v-app-bar>
     <v-main>
       <v-container>
-        <v-btn class="ma-4" color="purple-darken-3">Submit</v-btn>
+        <h1>Dashboard</h1>
+        <v-row>
+          <v-col cols="1">1</v-col>
+        </v-row>
+        <v-row>
+          <v-col cols="1">1</v-col>
+          <v-col cols="10">10</v-col>
+          <v-col cols="1">1</v-col>
+        </v-row>
+        <v-row>
+          <v-col class="text-center" cols="6">1</v-col>
+          <v-col class="text-center" cols="6">1</v-col>
+        </v-row>
+        <v-row>
+          <v-col class="text-center" cols="4">1</v-col>
+          <v-col class="text-center" cols="4">1</v-col>
+          <v-col class="text-center" cols="4">1</v-col>
+        </v-row>
+        <v-row>
+          <v-col class="text-center" cols="12" md="4" lg="3">1</v-col>
+          <v-col class="text-center" cols="12" md="4" lg="3">1</v-col>
+          <v-col class="text-center" cols="12" md="4" lg="3">1</v-col>
+        </v-row>
+
+        <!-- <v-btn class="ma-4" color="purple-darken-3">Submit</v-btn>
         <v-btn class="ma-4" color="#0f0f00">Reset</v-btn>
 
         <h1
@@ -30,7 +54,7 @@
           <div class="w-100 pa-4 border rounded-lg elevation-3">teste</div>
           <div class="w-100 pa-4 border rounded-lg elevation-3">teste</div>
           <div class="w-100 pa-4 border rounded-lg elevation-3">teste</div>
-        </div>
+        </div> -->
       </v-container>
 
       <router-view />
