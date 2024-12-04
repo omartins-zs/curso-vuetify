@@ -123,7 +123,11 @@
               <tr>
                 <td>Fulano de Tal</td>
                 <td>fulanodetal@gamil.com</td>
-                <td>Progamador Pleno</td>
+                <td>
+                  <v-chip color="primary" variant="outlined" size="small"
+                    >Progamador Pleno</v-chip
+                  >
+                </td>
                 <td>
                   <v-btn variant="tonal" color="primary">Editar</v-btn>
                 </td>
@@ -131,7 +135,11 @@
               <tr>
                 <td>Cicrano</td>
                 <td>cicrano@gmail.com</td>
-                <td>Progamador Senior</td>
+                <td>
+                  <v-chip color="success" variant="outlined" size="small"
+                    >Progamador Senior</v-chip
+                  >
+                </td>
                 <td>
                   <v-btn variant="tonal" color="primary">Editar</v-btn>
                 </td>
@@ -139,7 +147,11 @@
               <tr>
                 <td>Zé Ninguem</td>
                 <td>zeninguem@gamil.com</td>
-                <td>Progamador Junior</td>
+                <td>
+                  <v-chip variant="outlined" size="small"
+                    >Progamador Junior</v-chip
+                  >
+                </td>
                 <td>
                   <v-btn variant="tonal" color="primary">Editar</v-btn>
                 </td>
