@@ -13,10 +13,9 @@
               <v-img
                 class="align-end text-white"
                 src="https://images.pexels.com/photos/13435510/pexels-photo-13435510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                >
-
+              >
                 <v-card-title> Top 10 praias na Bahia </v-card-title>
-                </v-img>
+              </v-img>
 
               <v-card-text>
                 <div>Rio vermelho</div>
@@ -25,17 +24,18 @@
               </v-card-text>
 
               <v-card-actions>
-                <v-btn color="orange" text="Ver mais"></v-btn>
+                <v-btn prepend-icon="$vuetify" variant="tonal"> Button </v-btn>
+                <v-btn color="primary" variant="tonal"> Button </v-btn>
+                <v-btn color="warning" text="Ver mais"></v-btn>
               </v-card-actions>
             </v-card>
             <v-card class="mx-auto" max-width="400">
               <v-img
                 class="align-end text-white"
                 src="https://images.pexels.com/photos/13435510/pexels-photo-13435510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                >
-
+              >
                 <v-card-title> Top 10 praias na Bahia </v-card-title>
-                </v-img>
+              </v-img>
 
               <v-card-text>
                 <div>Rio vermelho</div>
@@ -44,17 +44,19 @@
               </v-card-text>
 
               <v-card-actions>
-                <v-btn color="orange" text="Ver mais"></v-btn>
+                <v-btn icon="mdi-home" variant="tonal"></v-btn>
+                <v-btn prepend-icon="mdi-cart" variant="tonal">Comprar</v-btn>
+                <v-btn color="primary" variant="tonal"> Button </v-btn>
+                <v-btn color="warning" variant="tonal" text="">Ver mais</v-btn>
               </v-card-actions>
             </v-card>
             <v-card class="mx-auto" max-width="400">
               <v-img
                 class="align-end text-white"
                 src="https://images.pexels.com/photos/13435510/pexels-photo-13435510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                >
-
+              >
                 <v-card-title> Top 10 praias na Bahia </v-card-title>
-                </v-img>
+              </v-img>
 
               <v-card-text>
                 <div>Rio vermelho</div>
@@ -63,7 +65,9 @@
               </v-card-text>
 
               <v-card-actions>
-                <v-btn color="orange" text="Ver mais"></v-btn>
+                <v-btn prepend-icon="$vuetify" variant="tonal"> Button </v-btn>
+                <v-btn color="primary" variant="tonal"> Button </v-btn>
+                <v-btn color="warning" variant="tonal" text="">Ver mais</v-btn>
               </v-card-actions>
             </v-card>
           </v-col>
