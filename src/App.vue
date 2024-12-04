@@ -1,14 +1,29 @@
 <template>
   <v-app>
     <v-app-bar flat class="border-b">
+      <v-app-bar-nav-icon></v-app-bar-nav-icon>
       <v-app-bar-title>Meu APP</v-app-bar-title>
+      <template #append>
+        <v-btn icon class="mr-2">
+          <v-badge dot color="info">
+            <v-icon icon="mdi-bell-outline"></v-icon>
+          </v-badge>
+        </v-btn>
+
+        <v-avatar>
+          <v-img
+            cover
+            src="https://thumbs.dreamstime.com/z/nerd-portrait-young-cheerful-businessman-smiling-36201399.jpg"
+          ></v-img>
+        </v-avatar>
+      </template>
     </v-app-bar>
     <v-main>
       <v-container>
         <h1>Dashboard</h1>
 
         <v-row>
-          <v-col class="text-center" cols="12" md="4" lg="3">
+          <v-col class="text-center" cols="12" sm="6" md="4" lg="3">
             <v-card class="mx-auto" max-width="400">
               <v-img
                 class="align-end text-white"
@@ -29,6 +44,8 @@
                 <v-btn color="warning" text="Ver mais"></v-btn>
               </v-card-actions>
             </v-card>
+          </v-col>
+          <v-col class="text-center" cols="12" sm="6" md="4" lg="3">
             <v-card class="mx-auto" max-width="400">
               <v-img
                 class="align-end text-white"
@@ -50,6 +67,30 @@
                 <v-btn color="warning" variant="tonal" text="">Ver mais</v-btn>
               </v-card-actions>
             </v-card>
+          </v-col>
+          <v-col class="text-center" cols="12" sm="6" md="4" lg="3">
+            <v-card class="mx-auto" max-width="400">
+              <v-img
+                class="align-end text-white"
+                src="https://images.pexels.com/photos/13435510/pexels-photo-13435510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              >
+                <v-card-title> Top 10 praias na Bahia </v-card-title>
+              </v-img>
+
+              <v-card-text>
+                <div>Rio vermelho</div>
+
+                <div>Lorem ipsum dolor sit amet.</div>
+              </v-card-text>
+
+              <v-card-actions>
+                <v-btn prepend-icon="$vuetify" variant="tonal"> Button </v-btn>
+                <v-btn color="primary" variant="tonal"> Button </v-btn>
+                <v-btn color="warning" variant="tonal" text="">Ver mais</v-btn>
+              </v-card-actions>
+            </v-card>
+          </v-col>
+          <v-col class="text-center" cols="12" sm="6" md="4" lg="3">
             <v-card class="mx-auto" max-width="400">
               <v-img
                 class="align-end text-white"
