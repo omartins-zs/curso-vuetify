@@ -62,7 +62,19 @@
         <h1 class="mb-6">Dashboard</h1>
 
         <v-card flat class="border mb-4">
-          <v-card-title>Ultimos usuarios</v-card-title>
+          <div class="d-flex justify-space-between">
+            <v-card-title>Ultimos usuarios</v-card-title>
+
+            <v-card-title>
+              <v-dialog>
+                <template #activator="{ props }">
+                  <v-btn v-bind="props" variant="tonal" size="small">
+                    Adicionar Usuario
+                  </v-btn>
+                </template>
+              </v-dialog>
+            </v-card-title>
+          </div>
           <v-table>
             <thead>
               <tr>
