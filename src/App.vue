@@ -25,6 +25,9 @@
       <v-app-bar-title>Meu APP</v-app-bar-title>
 
       <template #append>
+
+        <v-btn variant="text" @click="toggleTheme">Alterar Tema</v-btn>
+
         <v-btn icon class="mr-2">
           <v-badge dot color="info">
             <v-icon icon="mdi-bell-outline"></v-icon>
@@ -59,14 +62,19 @@
     </v-app-bar>
     <v-main>
       <v-container>
-        <h1 class="mb-6" v-ripple >Dashboard</h1>
+        <v-btn color="secondary">Teste Theme</v-btn>
+        <h1 class="mb-6" v-ripple>Dashboard</h1>
 
         <v-card flat class="border mb-4">
           <div class="d-flex justify-space-between">
             <v-card-title>Últimos usuários</v-card-title>
 
             <v-card-title>
-              <v-btn @click="isDialogOpen = true" variant="tonal" size="small" :ripple="false"
+              <v-btn
+                @click="isDialogOpen = true"
+                variant="tonal"
+                size="small"
+                :ripple="false"
                 >Adicionar usuário</v-btn
               >
 
@@ -307,4 +315,12 @@ const emailRules = [
     return "Email inválido";
   },
 ];
+
+import { useTheme } from "vuetify";
+
+const theme = useTheme();
+
+function toggleTheme() {
+  theme.global.name.value = theme.global.current.value.dark ? "light" : "dark";
+}
 </script>
