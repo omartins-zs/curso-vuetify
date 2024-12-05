@@ -25,8 +25,9 @@
       <v-app-bar-title>Meu APP</v-app-bar-title>
 
       <template #append>
-
-        <v-btn variant="text" @click="toggleTheme">Alterar Tema</v-btn>
+        <v-btn variant="text" @click="toggleTheme">
+          <v-icon icon="mdi-theme-light-dark"></v-icon>
+        </v-btn>
 
         <v-btn icon class="mr-2">
           <v-badge dot color="info">
