@@ -59,14 +59,14 @@
     </v-app-bar>
     <v-main>
       <v-container>
-        <h1 class="mb-6">Dashboard</h1>
+        <h1 class="mb-6" v-ripple >Dashboard</h1>
 
         <v-card flat class="border mb-4">
           <div class="d-flex justify-space-between">
             <v-card-title>Últimos usuários</v-card-title>
 
             <v-card-title>
-              <v-btn @click="isDialogOpen = true" variant="tonal" size="small"
+              <v-btn @click="isDialogOpen = true" variant="tonal" size="small" :ripple="false"
                 >Adicionar usuário</v-btn
               >
 
