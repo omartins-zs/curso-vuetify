@@ -13,6 +13,24 @@ import { createVuetify } from "vuetify";
 
 // https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides
 export default createVuetify({
+  defaults: {
+    global: {
+      ripple: false,
+    },
+    VSheet: {
+      elevation: 4,
+    },
+    VBtn: {
+      variant: "tonal",
+      color: "light",
+    },
+    VTextField: {
+      variant: "outlined",
+    },
+    VSelect: {
+      variant: "outlined",
+    },
+  },
   theme: {
     themes: {
       light: {
